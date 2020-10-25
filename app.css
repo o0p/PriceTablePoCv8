@@ -65,6 +65,7 @@ body {
     padding: 15px 25px;
     background-color: white;
     border-radius: 10px;
+    text-align: center;
 }
 
 .pricing-plan {
@@ -78,4 +79,37 @@ body {
 .pricing-img {
     max-width: 100%;
     margin-bottom: 25px;
+}
+
+.pricing-header {
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #888;
+}
+
+.pricing-features {
+    color: #016ff9;
+    margin: 50px 0 25px;
+}
+
+.pricing-features-item {
+   letter-spacing: 1px;
+   line-height: 1.5;
+   font-size: 12px;
+    padding: 15px 0;
+    border-top: 1px solid #e1f1ff;
+   font-weight: 600;
+   
+}
+
+
+.pricing-features-item:last-child {
+    border-bottom: 1px solid #e1f1ff;
+}
+
+.pricing-price {
+    color: #016ff9;
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
 }
